@@ -1,10 +1,5 @@
-from myplot import plot_SVC
-
-def load_data(filename):
-    res = np.loadtxt(filename, delimiter=',')
-    X = res[:,0:-1]
-    y = res[:,-1].astype(int)
-    return X, y
+### WRITE YOUR CODE HERE
+# If you get stuck, uncomment the line above to load a correction in this cell (then you can execute this code).
 
 ## Data set "data/data2.csv"
 X, y = load_data("data/data2.csv")

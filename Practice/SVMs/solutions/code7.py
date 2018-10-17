@@ -1,3 +1,6 @@
+### WRITE YOUR CODE HERE
+# If you get stuck, uncomment the line above to load a correction in this cell (then you can execute this code).
+
 from sklearn.grid_search import RandomizedSearchCV
 from sklearn.model_selection import train_test_split
 
